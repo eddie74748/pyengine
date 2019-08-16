@@ -4,7 +4,8 @@
 #include <thread>
 #include <atomic>
 #include <iostream>
-#include "CObject.h"
+#include "cobject.h"
+#include "ckernel.h"
 namespace py = pybind11;
 
 py::function g_entry;

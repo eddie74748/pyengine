@@ -176,4 +176,9 @@ private:
 };
 #endif // USE_SIMPLE_ANY
 
+struct Property_Value
+{
+	Any _value;
+};
+
 
